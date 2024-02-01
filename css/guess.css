@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P';
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.container #retry {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#guess {
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+}
+
+div #hrline {
+
+    border: 6px solid white;
+    margin-top: 60px;
+}
+
+div #question {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 120px;
+    left: 550px;
+    padding: 30px;
+    box-shadow: 0 0 40px white;
+}
+
+.mainelement {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px;
+    flex-wrap: wrap;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.score input {
+    background-color: black;
+    border-radius: 1px solid white;
+    max-width: 80%;
+    height: 80px;
+    color: white;
+    font-size: large;
+}
+
+.score button {
+    padding: 15px;
+    max-width: 30%;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+#output{
+    margin-left: 35px;
+    padding: 30px;
+}
+#scoreboard #start {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.same {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    font-size: 1.2rem;
+    padding: 5px;
+    position: relative;
+}
+
+#twenty {
+    position: absolute;
+    margin-left: 3px;
+}
+@media screen and (max-width: 900px) {
+/* CSS rules for screen size up to 900px */
+body {
+font-size: 14px;
+}
+
+.container {
+margin: 5px;
+}
+
+.container #retry {
+font-size: 1.5rem;
+}
+
+#guess {
+font-size: 1.5rem;
+}
+
+div #question {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    padding: 30px;
+    box-shadow: 0 0 40px white;
+}
+
+.score input {
+font-size: 1rem;
+}
+
+.score button {
+padding: 10px;
+margin-top: 5px;
+margin-left: 60px;
+}
+
+#scoreboard #start {
+font-size: 1rem;
+margin-bottom: 30px;
+}
+
+.same {
+font-size: 0.9rem;
+padding: 3px;
+}
+}
+
+@media screen and (max-width: 600px) {
+/* CSS rules for screen size up to 600px */
+body {
+font-size: 12px;
+}
+
+.container {
+margin: 3px;
+}
+div #question {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    padding: 30px;
+    box-shadow: 0 0 40px white;
+}
+
+.container #retry {
+font-size: 1rem;
+}
+
+#guess {
+font-size: 1rem;
+}
+
+div #question {
+font-size: 12px;
+padding: 15px;
+}
+
+.score input {
+font-size: 0.8rem;
+}
+
+.score button {
+padding: 8px;
+margin-top: 3px;
+margin-left: 50px;
+}
+
+#scoreboard #start {
+font-size: 0.8rem;
+margin-bottom: 20px;
+}
+
+.same {
+font-size: 0.7rem;
+padding: 2px;
+}
+}
+
+@media screen and (max-width: 400px) {
+/* CSS rules for screen size up to 400px */
+body {
+font-size: 10px;
+}
+
+.container {
+margin: 2px;
+}
+
+.container #retry {
+font-size: 0.8rem;
+}
+
+#guess {
+font-size: 0.8rem;
+
+}
+
+div #question {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 80px;
+    left: 120px;
+    padding: 30px;
+    box-shadow: 0 0 40px white;
+}
+
+.score input {
+font-size: 0.6rem;
+}
+
+.score button {
+padding: 5px;
+margin-top: 2px;
+margin-left: 40px;
+}
+
+#scoreboard #start {
+font-size: 0.6rem;
+margin-bottom: 10px;
+}
+
+.same {
+font-size: 0.5rem;
+padding: 1px;
+}
+}
